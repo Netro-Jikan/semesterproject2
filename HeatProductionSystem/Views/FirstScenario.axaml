@@ -10,6 +10,30 @@
              x:DataType="vm:FirstScenarioViewModel"
              x:Class="HeatProductionSystem.Views.FirstScenario">
 
+    <Grid HorizontalAlignment="Stretch" Margin="20">        
+    <Grid Margin="20" HorizontalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="fe" Grid.Column="0" Grid.Row="0" Margin="10"/>
+        <TextBlock Text="dw" Grid.Column="0" Grid.Row="1" Margin="10"/>
+        <TextBlock Text="ac" Grid.Column="1" Grid.Row="0" Margin="10"/>
+        <TextBlock Text="ef" Grid.Column="1" Grid.Row="1" Margin="10"/>
+        <TextBlock Text="fe" Grid.Column="2" Grid.Row="0" Margin="10"/>
+        <TextBlock Text="dw" Grid.Column="2" Grid.Row="1" Margin="10"/>
+        <TextBlock Text="ac" Grid.Column="3" Grid.Row="0" Margin="10"/>
+        <TextBlock Text="ef" Grid.Column="3" Grid.Row="1" Margin="10"/>
+        <TextBlock Text="ac" Grid.Column="4" Grid.Row="0" Margin="10"/>
+        <TextBlock Text="ef" Grid.Column="4" Grid.Row="1" Margin="10"/>
+    </Grid>       
     <Grid HorizontalAlignment="Right" Margin="20">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -123,5 +147,6 @@
                 </DataTemplate>
             </ItemsControl.ItemTemplate>
         </ItemsControl>
+    </Grid>
     </Grid>
 </UserControl>

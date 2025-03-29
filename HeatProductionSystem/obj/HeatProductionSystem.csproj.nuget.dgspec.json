@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\klark\\Documents\\GitHub\\semesterproject2\\HeatProductionSystem\\HeatProductionSystem.csproj": {}
+    "C:\\homework\\projoctt\\semesterproject2\\HeatProductionSystem\\HeatProductionSystem.csproj": {}
   },
   "projects": {
-    "C:\\Users\\klark\\Documents\\GitHub\\semesterproject2\\HeatProductionSystem\\HeatProductionSystem.csproj": {
+    "C:\\homework\\projoctt\\semesterproject2\\HeatProductionSystem\\HeatProductionSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\klark\\Documents\\GitHub\\semesterproject2\\HeatProductionSystem\\HeatProductionSystem.csproj",
+        "projectUniqueName": "C:\\homework\\projoctt\\semesterproject2\\HeatProductionSystem\\HeatProductionSystem.csproj",
         "projectName": "HeatProductionSystem",
-        "projectPath": "C:\\Users\\klark\\Documents\\GitHub\\semesterproject2\\HeatProductionSystem\\HeatProductionSystem.csproj",
-        "packagesPath": "C:\\Users\\klark\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\klark\\Documents\\GitHub\\semesterproject2\\HeatProductionSystem\\obj\\",
+        "projectPath": "C:\\homework\\projoctt\\semesterproject2\\HeatProductionSystem\\HeatProductionSystem.csproj",
+        "packagesPath": "C:\\Users\\Balint Hegedus\\.nuget\\packages\\",
+        "outputPath": "C:\\homework\\projoctt\\semesterproject2\\HeatProductionSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\klark\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Balint Hegedus\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -67,6 +67,18 @@
             "CommunityToolkit.Mvvm": {
               "target": "Package",
               "version": "[8.2.1, )"
+            },
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            },
+            "System.Data.SQLite": {
+              "target": "Package",
+              "version": "[1.0.119, )"
+            },
+            "netcore-System.Data.Linq": {
+              "target": "Package",
+              "version": "[8.0.1, )"
             }
           },
           "imports": [
