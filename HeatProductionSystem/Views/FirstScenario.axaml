@@ -11,7 +11,7 @@
              x:Class="HeatProductionSystem.Views.FirstScenario">
 
     <Grid HorizontalAlignment="Stretch" Margin="20">        
-    <Grid Margin="20" HorizontalAlignment="Stretch">
+    <Grid Margin="20" HorizontalAlignment="Center">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="Auto"/>
